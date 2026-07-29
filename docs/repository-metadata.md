@@ -2,7 +2,7 @@
 
 Suggested GitHub repository description:
 
-> Public case study for Halaqi, a production Flutter and Firebase barber booking platform.
+> Engineering case study for Halaqi, a production-grade Flutter and Firebase barber booking platform.
 
 Suggested website:
 
@@ -18,14 +18,13 @@ Suggested topics:
 - product-development
 - cloud-functions
 - firestore
-- mobile-development
 - case-study
 - software-architecture
 - cicd
+- analytics
 
 Suggested social preview image:
 
 - `assets/banner/social-preview.png`
 
 GitHub social preview images must be uploaded manually from repository settings if tooling cannot update that field.
-

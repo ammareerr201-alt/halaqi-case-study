@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or sensitive disclosure
+    url: https://github.com/ammareerr201-alt
+    about: Do not post sensitive data publicly. Use the profile to request a private reporting channel.

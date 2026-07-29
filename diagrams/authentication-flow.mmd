@@ -1,0 +1,7 @@
+flowchart TD
+  A["User starts sign in"] --> B["Firebase Authentication"]
+  B --> C["Authenticated session"]
+  C --> D["Firestore loads role and profile"]
+  D --> E["Customer experience"]
+  D --> F["Barber experience"]
+  D --> G["Admin operations experience"]

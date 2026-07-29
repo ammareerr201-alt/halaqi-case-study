@@ -1,7 +1,6 @@
 flowchart LR
-    QR["QR code scan"] --> Hosting["Firebase Hosting link"]
-    Hosting --> Redirect["Cloud Function redirect"]
-    Redirect --> Attribution["Campaign/source attribution"]
-    Attribution --> AppOpen["App or store destination"]
-    Attribution --> Analytics["Acquisition analytics"]
-
+  A["QR code scan"] --> B["Firebase Hosting link"]
+  B --> C["Redirect handler"]
+  C --> D["Campaign source attribution"]
+  D --> E["App or store destination"]
+  D --> F["Acquisition analytics"]

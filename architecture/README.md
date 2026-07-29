@@ -1,6 +1,5 @@
 # Architecture
 
-Halaqi uses a Flutter client experience, Firebase backend services, Cloud Functions for trusted operations, Firebase Hosting for QR links, and monitoring/analytics services for production feedback.
+Halaqi uses Flutter mobile experiences, a separately maintained Flutter Web administration dashboard, Firebase backend services, Cloud Functions for trusted operations, Firebase Hosting for public links and QR redirects, and monitoring/analytics services for production feedback.
 
-See the top-level README for rendered Mermaid diagrams. Raw diagram files are available in `diagrams/`.
-
+Rendered Mermaid diagrams are available in `docs/architecture-diagrams.md`. Raw diagram source files are available in `diagrams/`.

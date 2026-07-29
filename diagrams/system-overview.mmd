@@ -1,13 +1,15 @@
 flowchart LR
-    Customer["Customer mobile app"] --> Auth["Firebase Authentication"]
-    Barber["Barber mobile app"] --> Auth
-    Admin["Admin dashboard"] --> Auth
-    Customer --> Firestore["Cloud Firestore"]
-    Barber --> Firestore
-    Admin --> Firestore
-    Firestore --> Functions["Cloud Functions"]
-    Functions --> FCM["Firebase Cloud Messaging"]
-    Functions --> Analytics["Analytics / BigQuery"]
-    Hosting["Firebase Hosting / QR links"] --> Functions
-    Monitoring["Crashlytics + Performance"] --> Ops["Production monitoring"]
-
+  A["Customer mobile app"] --> B["Firebase Authentication"]
+  C["Barber mobile app"] --> B
+  D["Flutter Web admin dashboard"] --> B
+  A --> E["Cloud Firestore"]
+  C --> E
+  D --> E
+  A --> F["Firebase Storage"]
+  C --> F
+  E --> G["Cloud Functions"]
+  G --> E
+  G --> H["Firebase Cloud Messaging"]
+  G --> I["Analytics and BigQuery"]
+  J["Firebase Hosting links"] --> G
+  K["Crashlytics and Performance"] --> L["Production monitoring"]
