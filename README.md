@@ -192,7 +192,7 @@ The production app uses Firebase Crashlytics, Performance Monitoring, Analytics,
 | Link | URL |
 | --- | --- |
 | Website | https://halaqi-links.web.app |
-| App Store | https://apps.apple.com/ch/app/halaqi-%D8%AD%D9%84%D8%A7%D9%82%D9%8A/id6773111286 |
+| App Store | https://apps.apple.com/iq/app/halaqi-%D8%AD%D9%84%D8%A7%D9%82%D9%8A/id6773111286 |
 | Google Play | https://play.google.com/store/apps/details?id=com.haliqni.haliqni |
 
 Privacy policy and support page links are not included because no verified public URLs were available for this repository.
