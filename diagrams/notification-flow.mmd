@@ -1,0 +1,7 @@
+flowchart LR
+    Event["Booking or support event"] --> Record["Notification record"]
+    Record --> Function["Cloud Function delivery worker"]
+    Function --> FCM["Firebase Cloud Messaging"]
+    FCM --> Device["Customer or barber device"]
+    Function --> Retry["Retry state and delivery status"]
+

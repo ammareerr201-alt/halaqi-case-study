@@ -1,0 +1,7 @@
+flowchart LR
+    QR["QR code scan"] --> Hosting["Firebase Hosting link"]
+    Hosting --> Redirect["Cloud Function redirect"]
+    Redirect --> Attribution["Campaign/source attribution"]
+    Attribution --> AppOpen["App or store destination"]
+    Attribution --> Analytics["Acquisition analytics"]
+

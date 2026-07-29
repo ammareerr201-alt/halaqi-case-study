@@ -1,0 +1,13 @@
+flowchart LR
+    Customer["Customer mobile app"] --> Auth["Firebase Authentication"]
+    Barber["Barber mobile app"] --> Auth
+    Admin["Admin dashboard"] --> Auth
+    Customer --> Firestore["Cloud Firestore"]
+    Barber --> Firestore
+    Admin --> Firestore
+    Firestore --> Functions["Cloud Functions"]
+    Functions --> FCM["Firebase Cloud Messaging"]
+    Functions --> Analytics["Analytics / BigQuery"]
+    Hosting["Firebase Hosting / QR links"] --> Functions
+    Monitoring["Crashlytics + Performance"] --> Ops["Production monitoring"]
+

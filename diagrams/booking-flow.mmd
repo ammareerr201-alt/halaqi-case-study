@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant Customer
+    participant App as Flutter App
+    participant DB as Firestore
+    participant Fn as Cloud Functions
+    participant Barber
+    participant FCM as Notifications
+    Customer->>App: Select barber, service, and time
+    App->>DB: Create booking request
+    DB-->>Fn: Trigger trusted validation
+    Fn->>DB: Update booking state
+    Fn->>FCM: Notify barber
+    Barber->>App: Accept, reject, or propose update
+    App->>DB: Save decision
+    DB-->>Fn: Trigger follow-up actions
+    Fn->>FCM: Notify customer
+

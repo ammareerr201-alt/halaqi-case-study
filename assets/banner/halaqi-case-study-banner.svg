@@ -1,0 +1,35 @@
+<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Halaqi case study banner</title>
+  <desc id="desc">Dark case study banner for Halaqi production barber booking platform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090A0C"/>
+      <stop offset="0.55" stop-color="#111111"/>
+      <stop offset="1" stop-color="#1C1C18"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8C84A"/>
+      <stop offset="0.5" stop-color="#D4A537"/>
+      <stop offset="1" stop-color="#8A6E18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="420" fill="url(#bg)"/>
+  <rect x="52" y="52" width="1336" height="316" rx="28" fill="#0F0F0F" stroke="#383838" stroke-width="2"/>
+  <text x="88" y="136" fill="#D4A537" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">PUBLIC CASE STUDY</text>
+  <text x="88" y="210" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="850">Halaqi | حلاقي</text>
+  <text x="90" y="266" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28">Production barber booking and salon operations platform</text>
+  <text x="90" y="320" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">Flutter • Firebase • Cloud Functions • Analytics • CI/CD</text>
+  <g transform="translate(885 98)">
+    <rect width="376" height="190" rx="22" fill="#151515" stroke="#303030"/>
+    <circle cx="58" cy="58" r="18" fill="#D4A537"/>
+    <path d="M58 76V124" stroke="#D4A537" stroke-width="6" stroke-linecap="round"/>
+    <rect x="114" y="38" width="196" height="38" rx="10" fill="#202020" stroke="#383838"/>
+    <rect x="114" y="94" width="224" height="38" rx="10" fill="#202020" stroke="#383838"/>
+    <rect x="114" y="150" width="164" height="22" rx="8" fill="#202020" stroke="#383838"/>
+    <text x="132" y="64" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Customer booking</text>
+    <text x="132" y="120" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Barber operations</text>
+    <text x="132" y="167" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Admin analytics</text>
+  </g>
+  <path d="M88 346H1352" stroke="url(#gold)" stroke-width="2" opacity="0.72"/>
+</svg>
+
