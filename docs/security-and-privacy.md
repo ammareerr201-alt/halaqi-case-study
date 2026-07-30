@@ -19,9 +19,7 @@ Do not publish:
 Allowed public content:
 
 - High-level architecture diagrams.
-- Sanitized screenshots with demo data.
 - Public store links.
 - Public website or landing page links.
 - Technology stack and engineering decisions.
-- Lessons learned and roadmap.
-
+- Lessons learned.

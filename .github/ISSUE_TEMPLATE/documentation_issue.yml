@@ -15,6 +15,6 @@ body:
     id: safety
     attributes:
       label: Safety check
-      description: Do not include secrets, private URLs, personal data, production source code, or unsanitized screenshots.
+      description: Do not include secrets, private URLs, personal data, production source code, or private images.
     validations:
       required: true

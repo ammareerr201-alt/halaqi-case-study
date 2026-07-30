@@ -4,7 +4,7 @@ This repository is a public case study for Halaqi. It intentionally excludes pro
 
 ## Reporting
 
-Do not publish secrets, customer information, internal URLs, private screenshots, or vulnerability details in public issues.
+Do not publish secrets, customer information, internal URLs, private images, or vulnerability details in public issues.
 
 Until a dedicated security contact is published, use Ammar Hussein's GitHub profile to request a private reporting channel.
 
@@ -14,7 +14,7 @@ In scope:
 
 - Accidental exposure in public documentation.
 - Broken public links that could mislead visitors.
-- Diagrams or screenshots that reveal sensitive information.
+- Diagrams or public assets that reveal sensitive information.
 
 Out of scope:
 

@@ -7,7 +7,7 @@
 - [ ] Documentation clarity
 - [ ] Broken link fix
 - [ ] Architecture explanation improvement
-- [ ] Screenshot or asset update with sanitized/demo data
+- [ ] Approved asset update
 - [ ] Other case-study update
 
 ## Safety Checklist
@@ -16,4 +16,4 @@
 - [ ] No secrets, tokens, Firebase configuration, or signing material are included.
 - [ ] No customer, barber, admin, appointment, payment, wallet, location, or analytics data is included.
 - [ ] Diagrams remain high level and do not expose sensitive infrastructure details.
-- [ ] Screenshots, if any, use demo or fully anonymized data.
+- [ ] Public assets do not include private or placeholder material.

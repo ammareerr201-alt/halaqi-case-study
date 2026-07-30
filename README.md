@@ -27,9 +27,7 @@ This repository is a public portfolio artifact. It contains no production source
 - [Monitoring](#monitoring)
 - [Engineering Decisions](#engineering-decisions)
 - [Lessons Learned](#lessons-learned)
-- [Roadmap](#roadmap)
 - [Store Links](#store-links)
-- [Screenshots](#screenshots)
 
 ## Product Overview
 
@@ -179,14 +177,6 @@ The production app uses Firebase Crashlytics, Performance Monitoring, Analytics,
 - Analytics should be designed with privacy limits from the start.
 - CI/CD and crash monitoring are part of shipping.
 
-## Roadmap
-
-- Add sanitized screenshots with demo data.
-- Publish a deeper architecture walkthrough.
-- Add a public product demo video when sensitive data can be removed.
-- Document QR attribution and analytics decisions in more detail.
-- Add AI-assisted analytics experiments after data review.
-
 ## Store Links
 
 | Link | URL |
@@ -194,12 +184,6 @@ The production app uses Firebase Crashlytics, Performance Monitoring, Analytics,
 | Website | https://halaqi-links.web.app |
 | App Store | https://apps.apple.com/iq/app/halaqi-%D8%AD%D9%84%D8%A7%D9%82%D9%8A/id6773111286 |
 | Google Play | https://play.google.com/store/apps/details?id=com.haliqni.haliqni |
-
-Privacy policy and support page links are not included because no verified public URLs were available for this repository.
-
-## Screenshots
-
-No production screenshots are included yet. A safe capture plan is available in [screenshots/README.md](screenshots/README.md).
 
 ## Repository Structure
 
@@ -210,7 +194,6 @@ No production screenshots are included yet. A safe capture plan is available in 
 | `LICENSE.md` | Portfolio content notice; does not license production source code. |
 | `SECURITY.md` | Public security and sensitive-data reporting policy. |
 | `assets/` | Public brand and preview assets. |
-| `screenshots/` | Placeholder and privacy checklist for future sanitized screenshots. |
 | `architecture/` | Architecture overview. |
 | `diagrams/` | Mermaid source files for high-level diagrams. |
 | `docs/` | Supporting case-study documentation. |
