@@ -16,4 +16,4 @@
 - [ ] No secrets, tokens, Firebase configuration, or signing material are included.
 - [ ] No customer, barber, admin, appointment, payment, wallet, location, or analytics data is included.
 - [ ] Diagrams remain high level and do not expose sensitive infrastructure details.
-- [ ] Public assets do not include private or placeholder material.
+- [ ] Public assets are approved and do not include private material.
